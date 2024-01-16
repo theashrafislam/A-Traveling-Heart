@@ -260,7 +260,47 @@
     font-weight: 700;
     color: #FFF;
 }
+.three-item{
+    position: absolute;
+    left: 130px;
+    bottom: 130px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 28px;
 
+}
+.four-item{
+    position: absolute;
+    left: 145px;
+    bottom: 140px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 28px;
+}
+.five-item{
+    position: absolute;
+    left: 81px;
+    bottom: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+}
+.six-item{
+    position: absolute;
+    left: 150px;
+    bottom: 155px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 28px;
+}
+.seven-item{
+    position: absolute;
+    left: 260px;
+    bottom: 133px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 28px;
+}
 
 /* Destination Section  */
 
