@@ -1,0 +1,393 @@
+/* Primary style  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Primary style  */
+
+/* Start Header Section  */
+
+.header {
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-name img {
+    margin-right: 16px;
+}
+
+.header-name h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.heart {
+    color: #FF5400;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav ul li {
+    list-style: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannar-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13.png);
+    width: 100%;
+    height: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bannar-text {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.bannar-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.bannar-description {
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.bannar-input {
+    width: 65%;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannar-items {
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+}
+
+/* End Header Section  */
+
+/* Popular Tours Section  */
+
+.popular-tours-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.popular-title {
+    color: #131318;
+    margin-bottom: 24px;
+    font-size: 40px;
+}
+
+.popular-description {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.popular-list {
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.popular-list li {
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.popular-des-two {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.popular-images img {}
+
+/* Popular Tours Section  */
+
+/* Destination Section  */
+.destination-header-section {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.destination-content-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.img-one {
+    width: 100%;
+}
+
+.img-two {
+    width: 100%;
+}
+
+/* Destination Section  */
+
+/* Why Choose Us Section  */
+.choose-section {
+    padding: 50px 0;
+}
+
+.choose-header {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.choose-title {
+    margin-bottom: 24px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+
+.choose-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.choose-content-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+
+}
+
+.choose-content-one img {
+    margin-bottom: 25px;
+}
+
+.choose-content-one h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.choose-content-one p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.choose-content-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+
+.choose-content-two img {
+    margin-bottom: 25px;
+}
+
+.choose-content-two h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.choose-content-two p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.choose-content-three {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 32px 32px;
+    width: 573px;
+    height: 284px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.choose-content-three img {
+    margin-bottom: 25px;
+}
+
+.choose-content-three h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.choose-content-three p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+/* Why Choose Us Section  */
+
+/* Newsletter Section  */
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.newsletter-left {
+    padding: 30px 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.newsletter-description {
+    line-height: 26px;
+    color: #5A5A5D;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.newsletter-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-input input {
+    margin-bottom: 24px;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.newsletter-input .submit {
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.newsletter-right{
+    /* width: 100%; */
+    position: relative;
+}
+
+.travel {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 340px;
+    top: 255px;
+}
+.travel p{
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.travel h2{
+    color: #FFF;
+    font-size: 32px;
+}
+
+/* Newsletter Section  */
