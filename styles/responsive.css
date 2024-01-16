@@ -1,0 +1,115 @@
+@media screen and (max-width: 600px) {
+    .header-nav ul li{
+        display: none;
+    }
+    .header-nav h3{
+        display: inline-block;
+    }
+    .bannar-text{
+        width: 100%;
+    }
+    .bannar-input{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        height: 500px;
+
+    }
+    .bannar-input .bannar-items{
+        width: 90%;
+    }
+    .bannar-section{
+        height: 800px;
+    }
+    .bannar-description, .bannar-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bannar-title{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .bannar-description{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .popular-tours-container{
+        flex-direction: column;
+    }
+    .popular-images img{
+        width: 100%;
+    }
+    .destination-header-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .destination-content-one{
+       display: flex;
+       flex-direction: column;
+    }
+    .one img{
+        width: 100%;
+    }
+    .two img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .three img{
+        width: 100%;
+    }
+    .four img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .five img{
+        width: 100%;
+    }
+    .six img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .seven img{
+        width: 100%;
+        margin-left: 100%;
+        margin: 20px;
+    }
+    .seven{
+        display: none;
+    }
+    .choose-header{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .choose-content{
+        flex-direction: column;
+    }
+    .choose-content-three{
+        width: 100%;
+        height: 320px;
+    }
+    .unique-content{
+        flex-direction: column;
+    }
+    .newsletter-section{
+        flex-direction: column;
+    }
+    .newsletter-right{
+        width: 100%;
+    }
+    .newsletter-right img{
+        width: 100%;
+    }
+    .travel{
+        width: 250px;
+        height: 100px;
+        left: 250px;
+        top: 180px;
+    }
+    .footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .footer-last-text{
+        padding-bottom: 20px;
+    }
+}
