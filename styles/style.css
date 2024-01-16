@@ -66,6 +66,7 @@
 
 .bannar-section {
     border-radius: 16px;
+    height: 500px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13.png);
     width: 100%;
     /* background-repeat: no-repeat;
@@ -187,19 +188,79 @@
     margin-bottom: 48px;
 }
 
+.one {
+    grid-area: one;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.two {
+    grid-area: two;
+    width: 100%;
+    position: relative;
+}
+
+.three {
+    grid-area: three;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.four {
+    grid-area: four;
+    width: 100%;
+    position: relative;
+}
+
+.five {
+    grid-area: five;
+    width: 100%;
+    position: relative;
+}
+
+.six {
+    grid-area: six;
+    width: 100%;
+    position: relative;
+}
+
+.seven {
+    grid-area: seven;
+    width: 100%;
+    margin-left: 17%;
+    position: relative;
+}
+
 .destination-content-one {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    grid-template-areas:
+        "one one two two"
+        "three four four five"
+        "six seven seven seven"
+    ;
+
 }
 
-.img-one {
-    width: 100%;
+.one-item {
+    position: absolute;
+    bottom: 130px;
+    left: 223px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFF;
 }
 
-.img-two {
-    width: 100%;
+.two-item {
+    position: absolute;
+    left: 215px;
+    bottom: 150px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFF;
 }
+
 
 /* Destination Section  */
 
@@ -311,38 +372,44 @@
 
 /* Unique Section  */
 
-.unique-section{
+.unique-section {
     padding: 50px 0px 50px 0px;
 }
-.unique-title{
+
+.unique-title {
     text-align: center;
     margin-bottom: 50px;
     font-size: 30px;
     font-weight: 700;
     color: #131318;
 }
-.unique-content{
+
+.unique-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 
 }
-.unique-content-box{
+
+.unique-content-box {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 10px 15px;
 }
-.unique-content-box img{
+
+.unique-content-box img {
     width: 100%;
     border-radius: 16px;
 }
-.u-text-title{
+
+.u-text-title {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #131318;
 }
-.u-text-des{
+
+.u-text-des {
     line-height: 26px;
     font-size: 16px;
     color: #5A5A5D;
@@ -400,11 +467,12 @@
     margin-bottom: 0;
 }
 
-.newsletter-right{
+.newsletter-right {
     /* width: 100%; */
     position: relative;
 }
-.newsletter-right img{
+
+.newsletter-right img {
     border-radius: 16px;
     background: lightgray 50%;
     z-index: 9;
@@ -425,12 +493,14 @@
     left: 340px;
     top: 255px;
 }
-.travel p{
+
+.travel p {
     color: #FFF;
     font-size: 24px;
     margin-bottom: 4px;
 }
-.travel h2{
+
+.travel h2 {
     color: #FFF;
     font-size: 32px;
 }
@@ -438,12 +508,13 @@
 /* Newsletter Section  */
 
 /* Start Footer Section  */
-.footer{
+.footer {
     padding: 100px;
     background: rgba(19, 19, 24, 0.05);
     margin-top: 70px;
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -451,7 +522,8 @@
     margin-bottom: 15px;
     color: #131318;
 }
-.footer-description{
+
+.footer-description {
     color: #5A5A5D;
     font-size: 16;
     line-height: 26px;
@@ -459,21 +531,25 @@
     margin: 0 auto;
     margin-bottom: 32px;
 }
-.footer-icon{
+
+.footer-icon {
     text-align: center;
     font-size: 35px;
 }
-.footer-icon i{
+
+.footer-icon i {
     margin-right: 35px;
 }
-.footer-last-text{
+
+.footer-last-text {
     text-align: center;
     border-top: 2px solid rgba(19, 19, 24, 0.10);
     width: 70%;
     margin: 0 auto;
     margin-top: 32px;
 }
-.footer-last-text p{
+
+.footer-last-text p {
     margin-top: 50px;
     color: #131318;
 }
