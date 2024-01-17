@@ -47,22 +47,44 @@
        display: flex;
        flex-direction: column;
     }
+    .one-item{
+        left: 200px;
+    }
     .one img{
         width: 100%;
+    }
+    .two-item{
+        left: 190px;
+        bottom: 140px;
     }
     .two img{
         width: 100%;
         margin-bottom: 20px;
     }
+    .three-item{
+        left: 200px;
+        bottom: 170px;
+    }
     .three img{
         width: 100%;
+    }
+    .four-item{
+        left: 165px;
+        bottom: 155px;
     }
     .four img{
         width: 100%;
         margin-bottom: 20px;
     }
+    .five-item{
+        left: 200px;
+        bottom: 230px;
+    }
     .five img{
         width: 100%;
+    }
+    .six-item{
+        left: 180px;
     }
     .six img{
         width: 100%;
@@ -105,11 +127,13 @@
         left: 250px;
         top: 180px;
     }
-    .footer{
-        width: 100%;
-        padding: 10px;
+    .footer-one{
+        width: 90%;
+        margin: 0 auto;
     }
-    .footer-last-text{
-        padding-bottom: 20px;
-    }
+    /* .footer-description{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    } */
 }

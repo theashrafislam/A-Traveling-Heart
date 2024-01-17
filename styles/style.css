@@ -245,6 +245,28 @@
     overflow-x: hidden;
 
 }
+.one img{
+    filter: brightness(0.8);
+}
+.two img{
+    filter: brightness(0.8);
+}
+.three img{
+    filter: brightness(0.8);
+}
+.four img{
+    filter: brightness(0.8);
+}
+.five img{
+    filter: brightness(0.8);
+}
+.six img{
+    filter: brightness(0.8);
+}
+.seven img{
+    filter: brightness(0.8);
+}
+
 
 .one-item {
     position: absolute;
