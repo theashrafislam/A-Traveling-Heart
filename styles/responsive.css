@@ -127,13 +127,7 @@
         left: 250px;
         top: 180px;
     }
-    .footer-one{
-        width: 90%;
-        margin: 0 auto;
+    .footer{
+        padding: 80px 20px;
     }
-    /* .footer-description{
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    } */
 }
